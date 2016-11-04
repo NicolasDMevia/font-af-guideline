@@ -1,0 +1,514 @@
+@font-face {
+  font-family: 'af_font';
+  /*src:  url('https://dl.getdropbox.com/s/sek8lorojwhms0p/af_font.eot');
+  src:  url('https://dl.getdropbox.com/s/sek8lorojwhms0p/af_font.eot#iefix') format('embedded-opentype'),
+    url('https://dl.getdropbox.com/s/8ooh5src7oevhok/af_font.ttf') format('truetype'),*/
+    /*url('https://dl.getdropbox.com/s/ie2jbc1a4bn6lb3/af_font.woff') format('woff'),*/
+    src: url('https://dl.getdropbox.com/s/884e5qc44o4ftgi/af_font.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="af-font-icon-"], [class*=" af-font-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'af_font' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.af-font-icon-do-you-buzz:before {
+  content: "\e910";
+}
+.af-font-icon-youtube-plein:before {
+  content: "\e913";
+}
+.af-font-icon-youtube-filaire:before {
+  content: "\e914";
+}
+.af-font-icon-yahoo-filaire:before {
+  content: "\e915";
+}
+.af-font-icon-user-filaire:before {
+  content: "\e916";
+}
+.af-font-icon-twitter-plein:before {
+  content: "\e917";
+}
+.af-font-icon-twitter-filaire:before {
+  content: "\e918";
+}
+.af-font-icon-superposition-filaire:before {
+  content: "\e919";
+}
+.af-font-icon-retweet-plein:before {
+  content: "\e91a";
+}
+.af-font-icon-panier-achat-filaire:before {
+  content: "\e91b";
+}
+.af-font-icon-outlook-filaire:before {
+  content: "\e91c";
+}
+.af-font-icon-oreille-plein:before {
+  content: "\e91d";
+}
+.af-font-icon-medaille-filaire-copie:before {
+  content: "\e91e";
+}
+.af-font-icon-livre-filaire:before {
+  content: "\e91f";
+}
+.af-font-icon-handshake-filaire:before {
+  content: "\e920";
+}
+.af-font-icon-google-plus-plein .path1:before {
+  content: "\e921";
+  color: rgb(0, 0, 0);
+}
+.af-font-icon-google-plus-plein .path2:before {
+  content: "\e922";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.af-font-icon-google-plus-plein .path3:before {
+  content: "\e923";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.af-font-icon-google-filaire:before {
+  content: "\e924";
+}
+.af-font-icon-facebook-plein .path1:before {
+  content: "\e911";
+  color: rgb(0, 0, 0);
+}
+.af-font-icon-facebook-plein .path2:before {
+  content: "\e927";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.af-font-icon-facebook-filaire:before {
+  content: "\e925";
+}
+.af-font-icon-corbeille-filaire:before {
+  content: "\e926";
+}
+.af-font-icon-cahier-de-contact-filaire:before {
+  content: "\e90e";
+}
+.af-font-icon-cloche-plein:before {
+  content: "\e90f";
+}
+.af-font-icon-points---Plein:before {
+  content: "\e912";
+}
+.af-font-icon-days:before {
+  content: "\e901";
+}
+.af-font-icon-folded-newspaper:before {
+  content: "\e902";
+}
+.af-font-icon-suit:before {
+  content: "\e903";
+}
+.af-font-icon-bank:before {
+  content: "\f19c";
+}
+.af-font-icon-institution:before {
+  content: "\f19c";
+}
+.af-font-icon-university:before {
+  content: "\f19c";
+}
+.af-font-icon-shopping-cart:before {
+  content: "\f07a";
+}
+.af-font-icon-trash:before {
+  content: "\f1f8";
+}
+.af-font-icon-cart-plus:before {
+  content: "\f217";
+}
+.af-font-icon-cart-arrow-down:before {
+  content: "\f218";
+}
+.af-font-icon-fax:before {
+  content: "\f1ac";
+}
+.af-font-icon-wheel-chair-af:before {
+  content: "\e900";
+}
+.af-font-icon-scoopit:before {
+  content: "\e802";
+}
+.af-font-icon-calendar:before {
+  content: "\e90b";
+}
+.af-font-icon-clock:before {
+  content: "\e90c";
+}
+.af-font-icon-map-marker:before {
+  content: "\e908";
+}
+.af-font-icon-suitcase-a:before {
+  content: "\e909";
+}
+.af-font-icon-user-card:before {
+  content: "\e90a";
+}
+.af-font-icon-money:before {
+  content: "\e904";
+}
+.af-font-icon-badge-a:before {
+  content: "\e905";
+}
+.af-font-icon-circle-check:before {
+  content: "\e906";
+}
+.af-font-icon-stars-a:before {
+  content: "\e907";
+}
+.af-font-icon-square-check-a:before {
+  content: "\e90d";
+}
+.af-font-icon-dailymotion_icon:before {
+  content: "\e800";
+}
+.af-font-icon-dailymotionlogo:before {
+  content: "\e801";
+}
+.af-font-icon-uniF1C1:before {
+  content: "\f1c1";
+}
+.af-font-icon-uniF1C9:before {
+  content: "\f1c9";
+}
+.af-font-icon-graduate-c:before {
+  content: "\e65c";
+}
+.af-font-icon-uniE000:before {
+  content: "\e000";
+}
+.af-font-icon-uniE001:before {
+  content: "\e001";
+}
+.af-font-icon-uniE002:before {
+  content: "\e002";
+}
+.af-font-icon-uniE003:before {
+  content: "\e003";
+}
+.af-font-icon-uniE004:before {
+  content: "\e004";
+}
+.af-font-icon-uniE005:before {
+  content: "\e005";
+}
+.af-font-icon-uniE006:before {
+  content: "\e006";
+}
+.af-font-icon-uniE008:before {
+  content: "\e008";
+}
+.af-font-icon-uniE009:before {
+  content: "\e009";
+}
+.af-font-icon-uniE010:before {
+  content: "\e010";
+}
+.af-font-icon-uniE011:before {
+  content: "\e011";
+}
+.af-font-icon-uniE013:before {
+  content: "\e013";
+}
+.af-font-icon-uniE014:before {
+  content: "\e014";
+}
+.af-font-icon-uniE015:before {
+  content: "\e015";
+}
+.af-font-icon-uniE017:before {
+  content: "\e017";
+}
+.af-font-icon-uniE018:before {
+  content: "\e018";
+}
+.af-font-icon-uniE019:before {
+  content: "\e019";
+}
+.af-font-icon-uniE600:before {
+  content: "\e600";
+}
+.af-font-icon-uniE601:before {
+  content: "\e601";
+}
+.af-font-icon-uniE602:before {
+  content: "\e602";
+}
+.af-font-icon-uniE603:before {
+  content: "\e603";
+}
+.af-font-icon-uniE604:before {
+  content: "\e604";
+}
+.af-font-icon-uniE605:before {
+  content: "\e605";
+}
+.af-font-icon-uniE606:before {
+  content: "\e606";
+}
+.af-font-icon-uniE607:before {
+  content: "\e607";
+}
+.af-font-icon-uniE608:before {
+  content: "\e608";
+}
+.af-font-icon-uniE609:before {
+  content: "\e609";
+}
+.af-font-icon-uniE60A:before {
+  content: "\e60a";
+}
+.af-font-icon-uniE60B:before {
+  content: "\e60b";
+}
+.af-font-icon-uniE60C:before {
+  content: "\e60c";
+}
+.af-font-icon-uniE60D:before {
+  content: "\e60d";
+}
+.af-font-icon-uniE60E:before {
+  content: "\e60e";
+}
+.af-font-icon-uniE60F:before {
+  content: "\e60f";
+}
+.af-font-icon-uniE610:before {
+  content: "\e610";
+}
+.af-font-icon-uniE611:before {
+  content: "\e611";
+}
+.af-font-icon-uniE612:before {
+  content: "\e612";
+}
+.af-font-icon-uniE613:before {
+  content: "\e613";
+}
+.af-font-icon-uniE614:before {
+  content: "\e614";
+}
+.af-font-icon-uniE615:before {
+  content: "\e615";
+}
+.af-font-icon-uniE616:before {
+  content: "\e616";
+}
+.af-font-icon-uniE617:before {
+  content: "\e617";
+}
+.af-font-icon-uniE618:before {
+  content: "\e618";
+}
+.af-font-icon-uniE619:before {
+  content: "\e619";
+}
+.af-font-icon-uniE61A:before {
+  content: "\e61a";
+}
+.af-font-icon-uniE61B:before {
+  content: "\e61b";
+}
+.af-font-icon-uniE61C:before {
+  content: "\e61c";
+}
+.af-font-icon-uniE61D:before {
+  content: "\e61d";
+}
+.af-font-icon-uniE61E:before {
+  content: "\e61e";
+}
+.af-font-icon-uniE61F:before {
+  content: "\e61f";
+}
+.af-font-icon-uniE620:before {
+  content: "\e620";
+}
+.af-font-icon-uniE621:before {
+  content: "\e621";
+}
+.af-font-icon-uniE622:before {
+  content: "\e622";
+}
+.af-font-icon-uniE623:before {
+  content: "\e623";
+}
+.af-font-icon-uniE624:before {
+  content: "\e624";
+}
+.af-font-icon-uniE625:before {
+  content: "\e625";
+}
+.af-font-icon-uniE626:before {
+  content: "\e626";
+}
+.af-font-icon-uniE627:before {
+  content: "\e627";
+}
+.af-font-icon-uniE628:before {
+  content: "\e628";
+}
+.af-font-icon-uniE629:before {
+  content: "\e629";
+}
+.af-font-icon-uniE62A:before {
+  content: "\e62a";
+}
+.af-font-icon-uniE62B:before {
+  content: "\e62b";
+}
+.af-font-icon-uniE62C:before {
+  content: "\e62c";
+}
+.af-font-icon-uniE62D:before {
+  content: "\e62d";
+}
+.af-font-icon-uniE62E:before {
+  content: "\e62e";
+}
+.af-font-icon-uniE62F:before {
+  content: "\e62f";
+}
+.af-font-icon-uniE630:before {
+  content: "\e630";
+}
+.af-font-icon-uniE631:before {
+  content: "\e631";
+}
+.af-font-icon-uniE632:before {
+  content: "\e632";
+}
+.af-font-icon-uniE633:before {
+  content: "\e633";
+}
+.af-font-icon-uniE634:before {
+  content: "\e634";
+}
+.af-font-icon-uniE635:before {
+  content: "\e635";
+}
+.af-font-icon-uniE636:before {
+  content: "\e636";
+}
+.af-font-icon-uniE637:before {
+  content: "\e637";
+}
+.af-font-icon-uniE638:before {
+  content: "\e638";
+}
+.af-font-icon-uniE639:before {
+  content: "\e639";
+}
+.af-font-icon-uniE63A:before {
+  content: "\e63a";
+}
+.af-font-icon-uniE63B:before {
+  content: "\e63b";
+}
+.af-font-icon-uniE63C:before {
+  content: "\e63c";
+}
+.af-font-icon-uniE63D:before {
+  content: "\e63d";
+}
+.af-font-icon-uniE63E:before {
+  content: "\e63e";
+}
+.af-font-icon-uniE63F:before {
+  content: "\e63f";
+}
+.af-font-icon-uniE640:before {
+  content: "\e640";
+}
+.af-font-icon-uniE641:before {
+  content: "\e641";
+}
+.af-font-icon-uniE642:before {
+  content: "\e642";
+}
+.af-font-icon-uniE643:before {
+  content: "\e643";
+}
+.af-font-icon-uniE644:before {
+  content: "\e644";
+}
+.af-font-icon-uniE645:before {
+  content: "\e645";
+}
+.af-font-icon-uniE646:before {
+  content: "\e646";
+}
+.af-font-icon-uniE647:before {
+  content: "\e647";
+}
+.af-font-icon-uniE648:before {
+  content: "\e648";
+}
+.af-font-icon-uniE649:before {
+  content: "\e649";
+}
+.af-font-icon-uniE64A:before {
+  content: "\e64a";
+}
+.af-font-icon-uniE64B:before {
+  content: "\e64b";
+}
+.af-font-icon-uniE64C:before {
+  content: "\e64c";
+}
+.af-font-icon-uniE64D:before {
+  content: "\e64d";
+}
+.af-font-icon-uniE64E:before {
+  content: "\e64e";
+}
+.af-font-icon-uniE64F:before {
+  content: "\e64f";
+}
+.af-font-icon-uniE650:before {
+  content: "\e650";
+}
+.af-font-icon-uniE651:before {
+  content: "\e651";
+}
+.af-font-icon-uniE653:before {
+  content: "\e653";
+}
+.af-font-icon-uniE654:before {
+  content: "\e654";
+}
+.af-font-icon-uniE655:before {
+  content: "\e655";
+}
+.af-font-icon-uniE656:before {
+  content: "\e656";
+}
+.af-font-icon-uniE657:before {
+  content: "\e657";
+}
+.af-font-icon-uniE659:before {
+  content: "\e659";
+}
+.af-font-icon-uniE65B:before {
+  content: "\e65b";
+}

@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'af_font';
-  /*src:  url('https://dl.getdropbox.com/s/sek8lorojwhms0p/af_font.eot');
-  src:  url('https://dl.getdropbox.com/s/sek8lorojwhms0p/af_font.eot#iefix') format('embedded-opentype'),
-    url('https://dl.getdropbox.com/s/8ooh5src7oevhok/af_font.ttf') format('truetype'),*/
-    /*url('https://dl.getdropbox.com/s/ie2jbc1a4bn6lb3/af_font.woff') format('woff'),*/
-    src: url('https://dl.getdropbox.com/s/884e5qc44o4ftgi/af_font.svg') format('svg');
+  src:  url('fonts/af_font.eot?ha4huk');
+  src:  url('fonts/af_font.eot?ha4huk#iefix') format('embedded-opentype'),
+    url('fonts/af_font.ttf?ha4huk') format('truetype'),
+    url('fonts/af_font.woff?ha4huk') format('woff'),
+    url('fonts/af_font.svg?ha4huk#af_font') format('svg');
   font-weight: normal;
   font-style: normal;
 }
